@@ -84,6 +84,10 @@ hr{
 	color: #777777;
 }
 
+.navbar a:hover{
+	color: #4aaaa5;
+}
+
 .navbar a:nth-of-type(3n){
 	border: none;
 }
@@ -144,6 +148,10 @@ hr{
 	width: 60px;
 	height: 60px;
 	border: 1px #dddddd solid;
+}
+
+.sidebar-social img:hover{
+	border: 3px solid #4aaaa5;
 }
 
 .article-1{
