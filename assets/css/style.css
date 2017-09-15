@@ -11,9 +11,25 @@ body{
 	flex-direction: column;
 }
 
-h1, h2{
+*{
+	-moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+
+h1, h2, h3{
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
+}
+
+h2{
+	font-size: 18px;
+	font-weight: bold;
+}
+hr{
+	background-color: #dddddd;
+	height: 3px;
+	border: none;
 }
 
 .wrapper{
@@ -31,7 +47,7 @@ h1, h2{
 }
 
 .logo{
-	height: 90px;
+	height: 87px;
 	position: relative;
 	float: left;
 	margin-left: 70px;
@@ -48,7 +64,7 @@ h1, h2{
 }
 
 .navbar{
-	height: 90px;
+	height: 53px;
 	position: relative;
 	float: right;
 	width: 500px;
@@ -86,4 +102,65 @@ h1, h2{
 	margin-top: 40px;
 
 }
+
+.content{
+	margin: 40px auto;
+}
+
+.main-content{
+	width: 649px;
+	background-color: #ffffff;
+	position: relative;
+	float:left;
+	border: 1px #dddddd solid;
+	padding: 30px;
+}
+
+.main-content h2{
+	font-size: 22px;
+	margin-bottom: 30px
+}
+
+.main-content hr{
+	margin-bottom: 30px;
+}
+
+.sidebar-social{
+	width: 270px;
+	background-color: #ffffff;
+	height: 200px;
+	position: relative;
+	float: right;
+	padding: 30px;
+	margin-left: 40px;
+}
+
+.sidebar-social li{
+	display: inline-block;
+}
+
+.sidebar-social img{
+	width: 60px;
+	height: 60px;
+	border: 1px #dddddd solid;
+}
+
+.article-1{
+	clear:both;
+}
+
+.article-1 img{
+	width: 150px;
+	height: 200px;
+	float: left;
+	margin-right: 25px;
+	border: 1px #dddddd solid;
+}
+
+.article-1 p{
+	line-height: 30px;
+	font-size: 15px;
+}
+
+
 
