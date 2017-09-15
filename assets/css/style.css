@@ -132,7 +132,6 @@ hr{
 	position: relative;
 	float: right;
 	padding: 30px;
-	margin-left: 40px;
 }
 
 .sidebar-social li{
@@ -151,7 +150,7 @@ hr{
 
 .article-1 img{
 	width: 150px;
-	height: 200px;
+	height: 175px;
 	float: left;
 	margin-right: 25px;
 	border: 1px #dddddd solid;
@@ -162,5 +161,23 @@ hr{
 	font-size: 15px;
 }
 
+.gallery-1{
+	clear:both;
+}
 
+#portfolio{
+	width: 580px !important;
+}
+
+.gallery-grid{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.gallery-grid img{
+	height: 186px;
+	width: 246px;
+	margin-bottom: 50px;
+}
 
